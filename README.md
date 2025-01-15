@@ -5,7 +5,7 @@ We propose a high-quality real-world IGS dataset, containing 6426 images and 739
 ### Dataset Access  
 Due to the unique characteristics of the infrared gas dataset, the **training dataset is available upon request**. Please send an email to **22225179@zju.edu.cn**, clearly stating your purpose of use. 
 Thank you for your understanding and support of our work!  
-Prepare our IGS dataset: Please download it from [IGSDataset](), and place it in the gasmmsegdata folder.
+To reproduce our code, we provide the IGS dataset for testing. Please download it from [IGSDataset](https://pan.baidu.com/s/1vsZzKwNGN9HidwH3A7hjJg?pwd=s86q), and place it in the gasmmsegdata folder.
 - `gasmmsegdata/`: Root directory for the dataset.
   - `img_dir/`: Contains the input infrared gas images.
     - `train/`: Training set images.
@@ -21,15 +21,14 @@ We provide the pre-trained weights for GasSeg, which can be used directly for te
 #### Available Models  
 | Model       | Dataset     | mIoU (%) | mF1 (%) | Download Link |
 |-------------|-------------|----------|---------|---------------|
-| GasSeg-M    | IGS Dataset | 90.68    | 94.09   | [Download](#) |
-| GasSeg-S    | IGS Dataset | 89.06    | 95.02   | [Download](#) |
-| GasSeg-L    | IGS Dataset | 90.88    | 95.14   | [Download](#) |
+| GasSeg-M    | IGS Dataset | 90.68    | 94.09   | [Download](https://pan.baidu.com/s/1TbOuM8yo0ZfAwnLeoCd7Xw?pwd=vmba) |
+| GasSeg-S    | IGS Dataset | 89.06    | 95.02   | [Download](https://pan.baidu.com/s/1ooNMbFHmdojCm3-r0WNJmA?pwd=26b3) |
+| GasSeg-L    | IGS Dataset | 90.88    | 95.14   | [Download](https://pan.baidu.com/s/17zOqLvPzQ6-_7U6au4U_dw?pwd=itx4) |
 ### Setup
 For detailed setup instructions, we recommend referring to the [MMSegmentation repository](https://github.com/open-mmlab/mmsegmentation).
 ```
 conda create -n GasSeg python==3.10
 conda activate GasSeg
-pip install -r requirements.txt
 ```
 ### Train
 ```
