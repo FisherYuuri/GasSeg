@@ -43,37 +43,6 @@ class Conv(nn.Module):
         return self.act(self.conv(x))
 
 
-class LightBag(BaseModule):
-    """Light Boundary-attention-guided fusion module.
-
-    Args:
-        in_channels (int): The number of input channels.
-        out_channels (int): The number of output channels.
-        norm_cfg (dict): Config dict for normalization layer.
-            Default: dict(type='BN').
-        act_cfg (dict): Config dict for activation layer. Default: None.
-        init_cfg (dict): Config dict for initialization. Default: None.
-    """
-
-    def __init__(self,
-                 init_cfg: OptConfigType = None):
-        super().__init__(init_cfg)
-
-    def forward(self, x_i: Tensor, x_d: Tensor) -> Tensor:
-        """Forward function.
-        Args:
-            x_p (Tensor): The featrue map from P branch.
-            x_i (Tensor): The featrue map from I branch.
-            x_d (Tensor): The featrue map from D branch.
-
-        Returns:
-            Tensor: The feature map with light boundary-attention-guided
-                fusion.
-        """
-        sigma = torch.sigmoid(x_d)
-
-        return sigma * x_i
-
 class CAPPM(nn.Module):
 
     def __init__(self, c1, c2, k=5):  # equivalent to SPP(k=(5, 9, 13))
