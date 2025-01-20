@@ -29,6 +29,8 @@ For detailed setup instructions, we recommend referring to the [MMSegmentation r
 ```
 conda create -n GasSeg python==3.10
 conda activate GasSeg
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install mmcv==2.2.0
 ```
 ### Train
 ```
