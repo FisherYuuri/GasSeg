@@ -25,7 +25,7 @@ We provide the pre-trained weights for GasSeg, which can be used directly for te
 | GasSeg-S    | IGS Dataset | 89.06    | 94.09   |230.8| [Baidu](https://pan.baidu.com/s/1ooNMbFHmdojCm3-r0WNJmA?pwd=26b3) \| [Google](https://drive.google.com/file/d/1RZQ5AaWgEV6MMO1SLvHOKhtWLVjFOttg/view?usp=drive_link) |
 | GasSeg-L    | IGS Dataset | 90.88    | 95.14   |160.7| [Baidu](https://pan.baidu.com/s/17zOqLvPzQ6-_7U6au4U_dw?pwd=itx4) \| [Google](https://drive.google.com/file/d/1Y56JGj2zsr7FSk7LAL_SiLWSyDFoikkj/view?usp=drive_link) |
 ### Setup
-For detailed setup instructions, we recommend referring to the [MMSegmentation repository](https://github.com/open-mmlab/mmsegmentation).
+For detailed setup instructions, we recommend referring to the [MMSegmentation repository](https://github.com/open-mmlab/mmsegmentation). Our test environment is torch2.3.1+cu11.8 and mmcv2.2.0.
 ```
 conda create -n GasSeg python==3.10
 conda activate GasSeg
