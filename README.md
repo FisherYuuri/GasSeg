@@ -1,5 +1,5 @@
-# GasSeg: A Lightweight Edge-Guided and Context-Aware Network for Real-Time Infrared Gas Segmentation
-This is the official code of GasSeg: A Lightweight Edge-Guided and Context-Aware Network for Real-Time Infrared Gas Segmentation.
+# GasSeg: A Lightweight Real-Time Infrared Gas Segmentation Network for Edge Devices
+This is the official code of GasSeg: A Lightweight Real-Time Infrared Gas Segmentation Network for Edge Devices.
 ## IGS Dataset
 We propose a high-quality real-world IGS dataset, containing 6426 images and 7390 segmentation targets.
 ### Dataset Access  
