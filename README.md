@@ -3,7 +3,7 @@ This is the official code of GasSeg: A Lightweight Real-Time Infrared Gas Segmen
 ## IGS Dataset
 We propose a high-quality real-world IGS dataset, containing 6426 images and 7390 segmentation targets.
 ### Dataset Access  
-Due to the unique characteristics of the infrared gas dataset, the **training dataset is available upon request**. Please send an email to **22225179@zju.edu.cn**, clearly stating your purpose of use. 
+Due to the dataset being collected from real industrial scenarios, the **training dataset is available upon request**. Please send an email to **22225179@zju.edu.cn**, clearly stating your purpose of use. 
 Thank you for your understanding and support of our work!  
 To reproduce our code, we provide the IGS dataset for testing. Please download it from [IGSDatasetBaidu](https://pan.baidu.com/s/1vsZzKwNGN9HidwH3A7hjJg?pwd=s86q)|[IGSDatasetGoogle](https://drive.google.com/file/d/1lL85nHVPwSduACYm7NNHIjO_ltDjZCy8/view?usp=drive_link), and place it in the gasmmsegdata folder.
 - `gasmmsegdata/`: Root directory for the dataset.
