@@ -40,9 +40,6 @@ python tools/train.py configs/gasseg/gasseg-m.py
 ```
 python tools/test.py configs/gasseg/gasseg-m.py models/GasSeg-m.pth
 ```
-## GasSeg
-![ Illustration the architecture of GasSeg.]
-
 ## Contact   
 For any question, feel free to email <22225179@zju.edu.cn>
 
