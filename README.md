@@ -5,7 +5,7 @@ We propose a high-quality real-world IGS dataset, containing 6426 images and 739
 ### Dataset Access  
 Due to the dataset being collected from real industrial scenarios, the **training dataset is available upon request**. Please send an email to **22225179@zju.edu.cn**, clearly stating your purpose of use. 
 Thank you for your understanding and support of our work!  
-To reproduce our code, we provide the IGS dataset for testing. Please download it from [IGSDatasetBaidu](https://pan.baidu.com/s/1vsZzKwNGN9HidwH3A7hjJg?pwd=s86q)|[IGSDatasetGoogle](https://drive.google.com/file/d/1lL85nHVPwSduACYm7NNHIjO_ltDjZCy8/view?usp=drive_link), and place it in the gasmmsegdata folder.
+To reproduce our code, we provide the IGS dataset for testing. Please download it from [IGSDatasetBaidu]([https://pan.baidu.com/s/1-VZkDBa6b1l6q5L27VinEQ?pwd=rxq1])|[IGSDatasetGoogle](https://drive.google.com/file/d/1-hB5uEAOdDjCOMShOEwF2D2oTMYxKFcU/view?usp=drive_link), and place it in the gasmmsegdata folder.
 - `gasmmsegdata/`: Root directory for the dataset.
   - `img_dir/`: Contains the input infrared gas images.
     - `train/`: Training set images.
@@ -29,8 +29,8 @@ For detailed setup instructions, we recommend referring to the [MMSegmentation r
 ```
 conda create -n GasSeg python==3.10
 conda activate GasSeg
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install mmcv==2.2.0
+pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu118
+pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.3/index.html
 ```
 ### Train
 ```
