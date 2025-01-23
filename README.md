@@ -30,6 +30,7 @@ For detailed setup instructions, we recommend referring to the [MMSegmentation r
 conda create -n GasSeg python==3.10
 conda activate GasSeg
 pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu118
+pip install mmengine==0.10.5
 pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.3/index.html
 ```
 ### Train
